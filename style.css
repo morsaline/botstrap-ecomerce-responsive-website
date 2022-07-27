@@ -1,0 +1,33 @@
+.header-color {
+  background-color: #fff9f4;
+}
+.text-color1 {
+  color: #fa804c;
+}
+.img-back {
+  background-color: #f1f1f1;
+}
+.img {
+  width: 80px;
+  height: 80px;
+}
+.f-back {
+  background-color: #e5e5e5;
+}
+.c-back {
+  background-color: #fff;
+}
+@media screen and (max-width: 576px) {
+  .h-img {
+    order: 2;
+  }
+  .ce {
+    order: 1;
+  }
+  .last-img {
+    order: 1;
+  }
+  .last-text {
+    order: 2;
+  }
+}
